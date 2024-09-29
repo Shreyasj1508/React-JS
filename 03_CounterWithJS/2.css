@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(46, 61, 82);
+}
+
+.Box {
+    height: 250px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 200px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+#count-display {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    font-weight: 600;
+    margin-top: 55px;
+}
+
+#count-button {
+    background-color: #ffffff;
+    font-size: large;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 78, 198);
+}
+
